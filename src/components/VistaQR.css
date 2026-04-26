@@ -1,0 +1,57 @@
+.qr-container {
+  min-height: 100vh;
+  background: #fdf6f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.qr-card {
+  background: white;
+  border-radius: 16px;
+  padding: 36px 32px;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+  max-width: 340px;
+  width: 100%;
+}
+
+.qr-card h1 {
+  font-size: 1.4rem;
+  color: #b5451b;
+  margin: 0 0 6px;
+}
+
+.qr-subtitulo {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0 0 24px;
+}
+
+.qr-box {
+  background: #fff;
+  border: 3px solid #b5451b;
+  border-radius: 12px;
+  padding: 16px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.qr-instruccion {
+  font-size: 0.8rem;
+  color: #999;
+  margin: 0 0 24px;
+}
+
+.qr-info {
+  border-top: 1px solid #f0e0d0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.qr-info p {
+  font-size: 0.82rem;
+  color: #555;
+  margin: 6px 0;
+}

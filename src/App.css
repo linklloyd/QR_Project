@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+.switch-bar {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  background: #222;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.switch-bar button {
+  padding: 6px 20px;
+  border-radius: 20px;
+  border: 1.5px solid #b5451b;
+  background: transparent;
+  color: #fff;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.switch-bar button.activo {
+  background: #b5451b;
+  color: white;
+}
